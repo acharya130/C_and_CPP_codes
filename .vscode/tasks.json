@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build hello",
+      "type": "process",
+      "command": "${workspaceFolder}\\build_hello.bat",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$msCompile"]
+    },
+    {
+      "label": "build factorial",
+      "type": "process",
+      "command": "${workspaceFolder}\\build_factorial.bat",
+      "group": "build",
+      "problemMatcher": ["$msCompile"]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug C++",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}\\hello_world.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
